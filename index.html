@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burger King Virtual Food Ordering System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Burger King Virtual Food Ordering System</h1>
+    <div class="menu">
+        <h2>Menu</h2>
+        <div class="foodItems">
+            <label>
+                <div class="foodImage">
+                    <img src="whopper.jpeg" alt="Whopper">
+                </div>
+                <input type="checkbox" value="Whopper">
+                <span class="foodName">Whopper</span>
+            </label>
+            <label>
+                <div class="foodImage">
+                    <img src="chicken_sandwich.jpg" alt="Chicken Sandwich">
+                </div>
+                <input type="checkbox" value="Chicken Sandwich">
+                <span class="foodName">Chicken Sandwich</span>
+            </label>
+            <label>
+                <div class="foodImage">
+                    <img src="fries.avif" alt="French Fries">
+                </div>
+                <input type="checkbox" value="French Fries">
+                <span class="foodName">French Fries</span>
+            </label>
+            <label>
+                <div class="foodImage">
+                    <img src="onion_rings.avif" alt="Onion Rings">
+                </div>
+                <input type="checkbox" value="Onion Rings">
+                <span class="foodName">Onion Rings</span>
+            </label>
+        </div>
+    </div>
+
+    <div class="order">
+        <button id="orderButton">Order Food</button>
+    </div>
+
+    <div id="orderQueue"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
